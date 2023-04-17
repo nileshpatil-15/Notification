@@ -12,11 +12,11 @@ const Notification = (props) => {
 const element = (
   <div className="inner-container">
     <h1 className="heading">Notifications</h1>
-    {/* <Notification
-      message="Success Message"
-      className="Success-Message"
-      path="https://assets.ccbp.in/frontend/react-js/primary-icon-img.png" 
-    />  */}
+//     {/* <Notification
+//       message="Success Message"
+//       className="Success-Message"
+//       path="https://assets.ccbp.in/frontend/react-js/primary-icon-img.png" 
+//     />  */}
   </div>
 );
 
