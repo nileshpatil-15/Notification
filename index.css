@@ -1,8 +1,27 @@
 /* Write your code here. */
-
-.heading {
-  text-align: center;
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.containerClassName {
-  background-color: skyblue;
+body {
+  margin: 0px;
+}
+
+.notification {
+  width: 50%;
+  padding: 18px;
+  border-radius: 14px;
+  display: flex;
+}
+.primary-blue {
+  background-color: aqua;
+}
+.img {
+  width: 50px;
+}
+.message {
+  color: white;
 }
