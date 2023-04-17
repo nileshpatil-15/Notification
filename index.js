@@ -1,13 +1,13 @@
-// const Notification = (props) => {
-//   const { message, className, path } = props;
-//   const containerClassName={`notification ${className}`}
-//   return (
-//     <div className={containerClassName}>
-//       <img className="icon" src={path} />
-//       <p className="message">{message}</p>
-//     </div>
-//   );
-// };
+const Notification = (props) => {
+  const { message, className, path } = props;
+  const containerClassName={`notification ${className}`}
+  return (
+    <div className={containerClassName}>
+      <img className="icon" src={path} />
+      <p className="message">{message}</p>
+    </div>
+  );
+};
 
 const element = (
   <div className="inner-container">
