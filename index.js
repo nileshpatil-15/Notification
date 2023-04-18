@@ -3,8 +3,8 @@ const Notification = (props) => {
   const containerClassName=`notification ${className}`
   return (
       <div className={containerClassName}>
-      <img className='img' src=${path}/>
-      <p className='message'>${message}</p>
+      <img className='img' src={path}/>
+      <p className='message'>{message}</p>
 
       </div> 
   )
